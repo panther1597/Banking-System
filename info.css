@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8e9e4;
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #dd353e!important;
+}
+
+.my-info{
+    padding: 2rem 5rem;
+}
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: #f1f3f5!important;
+}
+
+.nav-link{
+    color: #f3f7fa!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #e75757;
+}
+/* navbar css ends here  */

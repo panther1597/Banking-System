@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sparks Bank</title>
+
+  <!-- Bootstrap Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+<!-- Style Sheet -->
+<link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+  <section id="Top">
+
+    <nav class="navbar navbar-expand-md bg-danger navbar-light">
+        <div id="logo">
+          <img src="https://media-exp1.licdn.com/dms/image/C560BAQFgHU3sTF4LfQ/company-logo_200_200/0/1519895156650?e=2159024400&v=beta&t=1iqBaESC2l4UUW7JjEjq0R_HQhwRTaaqyQG1k46q4bs" width="50" height="50">
+        </div>
+        <a class="navbar-brand" id="brand" >SPARKS BANK</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li>
+              <a href="./index.html" class="nav-link" style="color: rgb(14, 13, 13)!important; background-color: rgb(235, 115, 115);">HOME</a>
+            </li>
+            <li>
+              <a class="nav-link" href="./TransferMoney.html">TRANSACTION</a>
+            </li>
+            <li>
+              <a href="./customer.html" class="nav-link">VIEW CUSTOMERS</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+    <div class="row" class="" >
+      <div class="col-lg-6">
+        <img class="title-image" src="bank.jpg">
+      </div>
+
+      <div class="col-lg-6" id="firstLine">
+        <h1 style="color: red;">Sparks bank welcomes you!</h1>
+       <a class="btn btn-outline-danger btn-lg buttons" href="./TransferMoney.html">Send Money</a>
+       <a class="btn btn-outline-danger btn-lg buttons" href="./customer.html">View Customers</a>
+      </div>
+
+      
+
+    </div>
+
+  </section>
+
+     <!--contact starts-->
+   <section class="contactus" id="contact" >
+    <div class="container headings text-center">
+        <h2 class="center" style="color: red;" style="font-weight: bold;text-align: center;">CONTACT US</h2>
+        <p style="color: red;">We're here To help And answer your queries so kindly mention if any</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-10 offset-lg-2 offet-md-2-col col-1">
+                <form action="/action_page.php">
+                    <div class="form-group">
+                      
+                      <input type="text" class="form-control" placeholder="Enter name" id="username" required autocomplete="off">
+                    <br>
+                    </div>
+                    <form action="/action_page.php">
+                        <div class="form-group">
+                          
+                          <input type="email" class="form-control" placeholder="Enter email" id="email" required autocomplete="off">
+                        <br>
+                        </div>
+                        <form action="/action_page.php">
+                            <div class="form-group">
+                              
+                              <input type="number" class="form-control" placeholder="Enter mobile number" id="mobile" required autocomplete="off">
+                            <br>
+                            </div>
+                            <div class="form-group">
+                                <label for="comment" style="color: white;">Give your comments here:</label>
+                                <textarea class="form-control" rows="4" id="comment" placeholder="Your Comments"></textarea>
+                              <br>
+                              </div>
+                              <div class="formbutton" style="display: flex;justify-content: center;">
+                    <button type="submit" >Submit</button></div>
+                  </form>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <footer id="footer">
+    <p>© Copyright The Sparks Bank</p>
+    <h6>This basic banking system project is made by Murali Krishnan #2021 at GRIP.</h6>
+
+  </footer>
+   <!-- spalsh screen js -->
+   <script>
+    var preloader = document.getElementById("loading");
+    function loader(){
+      preloader.style.display = 'none';
+    }
+  </script>
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+  <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+</body>
+
+</html>
